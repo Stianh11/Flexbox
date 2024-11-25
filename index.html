@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+  <title>Flexbox</title>
+</head>
+<body>
+  <nav class="nav-bar">
+    <div class="container">
+      <div class="logo">Flexbox</div>
+      <ul class="nav">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="memes.html">Memes</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="container">
+      <div>
+        <h1>Flexbox Facts</h1>
+        <p>Flexbox (Flexible Box Layout) is a CSS layout model designed to arrange items in a one-dimensional space, either horizontally (row) or vertically (column). It provides powerful alignment, distribution, and spacing capabilities, making it ideal for creating flexible, responsive layouts with minimal effort compared to traditional techniques like floats or inline-block.
+        </p>
+      </div>
+      <img src="./img/flexing_meme_by_4lex4ldridge_dev0oow-fullview.jpg" alt="flexbox" title="flexbox img">
+    </div>
+  </header>
+  <section class="boxes">
+    <div class="container">
+      <div class="box">
+        <h2><i class="fas fa-arrows-alt-v"></i>Alignment & Space</h2>
+        <p>Flexbox makes alignment simple with justify-content (horizontal) and align-items (vertical). The gap property adds consistent spacing between items without extra margins, keeping layouts clean.</p>
+      </div>
+      <div class="box">
+        <h2><i class="fas fa-arrows-alt"></i>Tricky Positioning</h2>
+        <p>Flexbox simplifies centering. Combine justify-content: center and align-items: center to center elements horizontally and vertically, avoiding complex positioning hacks.</p>
+      </div>
+      <div class="box">
+        <h2><i class="fas fa-mobile"></i>Responsive Design</h2>
+        <p>Flexbox is naturally responsive. Use flex-wrap to wrap items when space is tight, and combine with flex-grow and flex-basis for resizing, ensuring layouts adapt smoothly to all screen sizes.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
